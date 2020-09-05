@@ -1,0 +1,78 @@
+.tweet-box
+{
+    border: solid  #1DA1F2 1px;
+    border-radius: 20px;
+}
+.tweet-box textarea
+{
+
+    margin-top: 15px;
+    outline: none !important;
+    padding: 0px 30px;
+}
+.time-line
+{
+    border: solid 1px darkgray ;
+    border-radius: 40px;
+    padding: 20px;
+}
+.time-line .tweet .avatar
+{
+    flex-shrink: 0;
+}
+.friend-list
+{
+    color: white;
+    align-items: flex-start;
+}
+.profile-header
+{
+    position: relative;
+}
+.cover-img
+{
+    height: 300px;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+.profile-img
+{
+
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 39%;
+
+}
+.follow-form
+{
+    display: inline-block;
+}
+.friend-img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.User-Explore-Img
+{
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+}
+.tweet-img , .tweet-box-img{
+    background-size: cover;
+    background-position: center;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px
+}
+
+
